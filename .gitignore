@@ -16,9 +16,12 @@
 /.next/
 /out/
 next-env.d.ts
-notes.txt
 # production
 /build
+
+notes.txt
+
+.env.example
 
 # misc
 .DS_Store
