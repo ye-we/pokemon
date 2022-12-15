@@ -3,7 +3,12 @@ import Head from "next/head";
 import Link from "next/link";
 
 const Home: NextPage = () => {
-  return <div className="text-2xl text-red-200">Home</div>;
+  return (
+    <div className="flex h-screen w-screen flex-col">
+      <div className=""></div>
+      <div></div>
+    </div>
+  );
 };
 
 export default Home;
